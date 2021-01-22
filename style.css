@@ -1,0 +1,271 @@
+body {
+  /* background-color: rgba(0, 0, 0, 0.26); */
+  background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_251888.jpg");
+}
+.page-container {
+  background-color: black;
+}
+
+.container {
+  background-color: black;
+  box-shadow: 1.2px 1.2px 1.2px 1.2px;
+}
+.container.preview-posts {
+  background-color: whitesmoke;
+}
+
+.row {
+  margin: 1em;
+}
+.col-sm {
+  margin-top: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#page-title-container {
+  text-align: center;
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: rgb(33, 223, 112);
+}
+
+#title,
+#body,
+#image {
+  background-color: rgba(47, 46, 46, 0.322);
+  border: 0.1em solid gray;
+  margin-top: 0.5em;
+  color: white;
+  font-size: 1em;
+}
+
+#search-button {
+  background-color: rgb(33, 223, 112);
+  width: 20%;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+#submit-button {
+  background-color: rgb(33, 223, 112);
+  width: 20%;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.row > #preview {
+  font-size: 1.3em;
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;
+}
+#preview:hover {
+  color: rgb(13, 170, 79);
+}
+.row.search {
+  text-align: center;
+}
+
+#search-input {
+  width: 20em;
+  height: 2em;
+}
+
+.field-title {
+  text-align: center;
+  font-size: 3em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(49, 49, 49);
+  text-transform: uppercase;
+}
+
+.field-body {
+  font-size: 1.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color: rgb(49, 49, 49);
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2em;
+}
+.creation-date,
+.update-date {
+  font-size: 0.8em;
+  color: rgb(49, 49, 49);
+}
+.row.preview-posts > .creation-date {
+  margin: 0;
+  padding: 0;
+  text-align: end;
+}
+
+.col-md > .update-date {
+  margin: 0;
+  padding: 0;
+  text-align: end;
+}
+
+.modify-button.fa.fa-edit {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100%;
+  color: rgb(46, 45, 45);
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.delete-button.fa.fa-close {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100%;
+  color: rgb(46, 45, 45);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.modify-comment-button.fa.fa-edit {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100%;
+  color: rgb(46, 45, 45);
+}
+
+.delete-comment-button.fa.fa-close {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100%;
+  color: rgb(46, 45, 45);
+}
+
+.comment-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100%;
+  color: rgb(46, 45, 45);
+  text-align: right;
+}
+
+.comment-button:hover {
+  color: rgb(17, 153, 73);
+}
+
+.modify-button.fa.fa-edit:hover {
+  color: rgb(17, 153, 73);
+}
+
+.delete-button.fa.fa-close:hover {
+  color: rgb(17, 153, 73);
+}
+
+.delete-comment-button.fa.fa-close:hover {
+  color: rgb(17, 153, 73);
+}
+
+.modify-comment-button.fa.fa-edit:hover {
+  color: rgb(17, 153, 73);
+}
+
+.confirm-button {
+  color: white;
+  background-color: rgb(94, 12, 12);
+  width: 20%;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.col-sm > .cancel-button {
+  color: white;
+  background-color: rgb(94, 12, 12);
+  width: 20%;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.modify-date-comment {
+  font-size: 0.8em;
+  color: rgb(49, 49, 49);
+  margin: 0;
+  padding: 0;
+  text-align: end;
+}
+.comment-submit-button {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(33, 223, 112);
+  width: 20%;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 200;
+}
+.confirm-comment-button,
+.cancel-comment-button {
+  color: white;
+  background-color: rgb(94, 12, 12);
+  width: 20%;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.delete-search-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100%;
+  color: rgb(46, 45, 45);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.delete-search-button:hover {
+  color: rgb(17, 153, 73);
+}
+
+.modify-search-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 100%;
+  color: rgb(46, 45, 45);
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.modify-search-button:hover {
+  color: rgb(17, 153, 73);
+}
+
+.delete-comment-button.fa.fa-close {
+  text-align: left;
+}
+.modify-comment-button.fa.fa-edit {
+  text-align: right;
+}
+
+.comment-title,
+.comment-body {
+  text-align: left;
+}
